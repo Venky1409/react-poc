@@ -1,0 +1,28 @@
+{
+  "name": "react-node-poc",
+  "version": "1.0.0",
+  "description": "Sample React and Node application",
+  "main": "server.js",
+  "engines": {
+    "npm": "6.x",
+    "node": "10.x"
+  },
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Venkatesh Pinku",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2"
+  }
+}

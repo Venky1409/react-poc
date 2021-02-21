@@ -1,1 +1,43 @@
-# react-poc
+# React Express Starter Pack
+
+> Create full stack apps with React and Express. Run your client and server with a single command.
+
+### Redux Version
+This version does not include Redux
+[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter)
+
+## Quick Start
+
+``` bash
+# Install dependencies for server
+npm install
+
+# Install dependencies for client
+npm run client-install
+
+# Run the client & server with concurrently
+npm run dev
+
+# Run the Express server only
+npm run server
+
+# Run the React client only
+npm run client
+
+# Server runs on http://localhost:1409 and client on http://localhost:3000
+```
+
+## App Info
+
+### Author
+
+Venkatesh Pinku
+[Front-end Developer](https://venkypinku2702.wixsite.com/venky1503pinku?fbclid=IwAR2DQyh3cD9ybQKri-0_uiJK3ymV9AHF1pLMiqGms_S3dyd2GZA5WlQWRks)
+
+### Version
+
+1.0.0
+
+### License
+
+This project is licensed under the MIT License
