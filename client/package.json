@@ -23,7 +23,9 @@
     "build-prod": "webpack -p --env production",
     "start-server": "webpack-dev-server --watch",
     "start": "npm run build-prod && node index.js",
-"tsc": "tsc --noEmit",
+    "start-server": "webpack-dev-server --mode development --open",
+    "build-server": "./node_modules/.bin/webpack --mode production"
+
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",

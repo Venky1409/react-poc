@@ -14,7 +14,7 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm build-prod",
-"heroku-prebuild": "cd client && npm install"
+    "heroku-prebuild": "cd client && npm install"
   },
   "author": "Venkatesh Pinku",
   "license": "MIT",
