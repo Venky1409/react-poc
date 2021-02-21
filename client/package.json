@@ -19,13 +19,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "build": "webpack",
-    "build-prod": "webpack -p --env production",
-    "start-server": "webpack-dev-server --watch",
-    "start": "npm run build-prod && node index.js",
-    "start-server": "webpack-dev-server --mode development --open",
-    "build-server": "./node_modules/.bin/webpack --mode production"
-
+    "start": "webpack-dev-server --mode development --open",
+    "build": "./node_modules/.bin/webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
@@ -61,5 +56,5 @@
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.10.3"
   },
-"proxy": "http://localhost:1409"
+  "proxy": "http://localhost:1409"
 }
