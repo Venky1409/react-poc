@@ -32,7 +32,7 @@ npm run client
 ### Author
 
 Venkatesh Pinku
-[Front-end Developer](https://venkypinku2702.wixsite.com/venky1503pinku?fbclid=IwAR2DQyh3cD9ybQKri-0_uiJK3ymV9AHF1pLMiqGms_S3dyd2GZA5WlQWRks)
+[Front-end Developer](https://venky1409.github.io/Venkatesh_Portfolio/)
 
 ### Version
 
